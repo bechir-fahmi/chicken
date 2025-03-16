@@ -180,6 +180,18 @@ import { TranslateService } from '@ngx-translate/core';
       padding: 2rem;
     }
 
+    .hero-content h1 {
+      font-size: clamp(2rem, 5vw, 3.5rem);
+      margin-bottom: 1rem;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    }
+
+    .hero-content p {
+      font-size: clamp(1rem, 3vw, 1.25rem);
+      margin-bottom: 2rem;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    }
+
     .animate-up {
       animation: fadeInUp 1s ease;
     }
@@ -208,20 +220,28 @@ import { TranslateService } from '@ngx-translate/core';
       background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
       color: white;
       border: none;
-      padding: 1rem 2rem;
+      padding: clamp(0.8rem, 2vw, 1rem) clamp(1.5rem, 3vw, 2rem);
       border-radius: 50px;
-      font-size: 1.1rem;
+      font-size: clamp(1rem, 2.5vw, 1.1rem);
       display: inline-flex;
       align-items: center;
       gap: 0.5rem;
       cursor: pointer;
       transition: all 0.3s ease;
       margin-top: 2rem;
+      box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+      white-space: nowrap;
+      justify-content: center;
+      min-width: clamp(200px, 50vw, 250px);
     }
 
     .cta-button:hover {
       transform: translateY(-2px);
-      box-shadow: 0 5px 15px rgba(37, 211, 102, 0.3);
+      box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+    }
+
+    .cta-button:active {
+      transform: translateY(1px);
     }
 
     /* About Section */
@@ -277,6 +297,9 @@ import { TranslateService } from '@ngx-translate/core';
       overflow: hidden;
       box-shadow: 0 5px 15px rgba(0,0,0,0.1);
       transition: all 0.3s ease;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
     }
 
     .modern-card:hover {
@@ -334,40 +357,61 @@ import { TranslateService } from '@ngx-translate/core';
       transform: scale(1.1);
     }
 
+    .card-body {
+      padding: clamp(1rem, 3vw, 1.5rem);
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card-title {
+      font-size: clamp(1.25rem, 4vw, 1.5rem);
+      margin-bottom: 1rem;
+    }
+
+    .card-text {
+      font-size: clamp(0.9rem, 2.5vw, 1rem);
+      margin-bottom: 1rem;
+      flex-grow: 1;
+    }
+
     .card-features {
       display: flex;
+      flex-wrap: wrap;
       gap: 0.5rem;
-      margin-top: 1rem;
+      margin-top: auto;
     }
 
     .badge {
       background: #f8f9fa;
       color: #212529;
-      padding: 0.5rem 1rem;
+      padding: clamp(0.4rem, 2vw, 0.5rem) clamp(0.8rem, 2.5vw, 1rem);
       border-radius: 50px;
       font-weight: normal;
+      font-size: clamp(0.8rem, 2.5vw, 0.9rem);
     }
 
     /* Statistics Section */
     .statistics-section {
-      padding: 4rem 0;
+      padding: clamp(2rem, 5vw, 4rem) 0;
       background: #f8f9fa;
       border-radius: 15px;
+      margin: clamp(1rem, 3vw, 2rem);
     }
 
     .stat-card {
-      padding: 2rem;
+      padding: clamp(1rem, 3vw, 2rem);
       text-align: center;
     }
 
     .stat-card i {
-      font-size: 2.5rem;
+      font-size: clamp(2rem, 5vw, 2.5rem);
       color: #25D366;
-      margin-bottom: 1rem;
+      margin-bottom: clamp(0.5rem, 2vw, 1rem);
     }
 
     .stat-number {
-      font-size: 2rem;
+      font-size: clamp(1.5rem, 4vw, 2rem);
       font-weight: bold;
       color: #212529;
       margin-bottom: 0.5rem;
@@ -375,56 +419,25 @@ import { TranslateService } from '@ngx-translate/core';
 
     .stat-label {
       color: #6c757d;
+      font-size: clamp(0.9rem, 2.5vw, 1rem);
     }
 
     /* Testimonials Section */
     .testimonials-section {
-      padding: 5rem 0;
-      background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+      padding: clamp(3rem, 5vw, 5rem) 0;
     }
 
     .testimonial-card {
-      background: white;
-      border-radius: 15px;
-      padding: 2rem;
-      margin: 1rem;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-      transition: all 0.3s ease;
-    }
-
-    .testimonial-card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-    }
-
-    .testimonial-avatar {
-      width: 60px;
-      height: 60px;
-      border-radius: 50%;
-      background: #f8f9fa;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-bottom: 1rem;
-    }
-
-    .testimonial-avatar i {
-      font-size: 2rem;
-      color: #6c757d;
-    }
-
-    .testimonial-content {
-      text-align: left;
+      padding: clamp(1.5rem, 3vw, 2rem);
+      margin: clamp(0.5rem, 2vw, 1rem);
     }
 
     .testimonial-text {
-      font-style: italic;
-      margin-bottom: 1rem;
+      font-size: clamp(0.9rem, 2.5vw, 1rem);
     }
 
     .testimonial-author {
-      font-weight: bold;
-      color: #212529;
+      font-size: clamp(1rem, 2.5vw, 1.1rem);
     }
 
     .testimonial-rating {
@@ -496,22 +509,58 @@ import { TranslateService } from '@ngx-translate/core';
       text-align: right;
     }
 
-    /* Responsive Design */
+    :host-context([dir="rtl"]) .card-features {
+      justify-content: flex-start;
+    }
+
     @media (max-width: 768px) {
       .hero-section {
-        height: 70vh;
+        height: 80vh;
+        background-attachment: scroll;
       }
 
-      .about-section {
-        padding: 3rem 0;
+      .featured-products .row {
+        margin: 0 clamp(0.5rem, 2vw, 1rem);
+      }
+
+      .modern-card {
+        margin-bottom: clamp(1rem, 3vw, 1.5rem);
+      }
+
+      .testimonial-card {
+        margin-bottom: clamp(1rem, 3vw, 1.5rem);
       }
 
       .stat-card {
+        margin-bottom: clamp(1rem, 3vw, 1.5rem);
+      }
+
+      .card-features {
+        justify-content: center;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .hero-content {
         padding: 1rem;
       }
 
-      .stat-number {
-        font-size: 1.5rem;
+      .cta-button {
+        width: 100%;
+        max-width: 300px;
+      }
+
+      .statistics-section {
+        margin: 1rem;
+        padding: 1.5rem 0;
+      }
+
+      .stat-card {
+        padding: 1rem 0.5rem;
+      }
+
+      .testimonial-card {
+        margin: 0.5rem;
       }
     }
   `]
