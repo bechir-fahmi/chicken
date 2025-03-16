@@ -246,6 +246,27 @@ import { TranslateService } from '@ngx-translate/core';
         margin: 0;
       }
     }
+
+    .navbar-toggler {
+      border: none;
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(10px);
+      padding: 0.5rem;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+      margin-right: 1rem;
+    }
+
+    .navbar-toggler:hover {
+      background: rgba(255, 255, 255, 0.3);
+      transform: scale(1.05);
+    }
+
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+      width: 1.5em;
+      height: 1.5em;
+    }
   `]
 })
 export class AppComponent {
