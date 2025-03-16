@@ -1,0 +1,74 @@
+{
+  "HEADER": {
+    "HOME": "Home",
+    "GALLERY": "Gallery"
+  },
+  "HERO": {
+    "WELCOME": "Welcome to Our Premium Chicken Farm",
+    "SUBTITLE": "Experience the finest quality poultry products, raised with care and dedication",
+    "DISCOVER": "Discover Our Products"
+  },
+  "ABOUT": {
+    "TITLE": "About Our Farm",
+    "DESCRIPTION": "With over 15 years of experience, we specialize in raising the highest quality chickens using sustainable and humane practices.",
+    "FEATURE1": "Premium Quality Guaranteed",
+    "FEATURE2": "Sustainable Farming Methods",
+    "FEATURE3": "Fresh Daily Products"
+  },
+  "PRODUCTS": {
+    "TITLE": "Our Products",
+    "PREMIUM": {
+      "TITLE": "Premium Chickens",
+      "DESCRIPTION": "Farm-fresh, naturally raised chickens perfect for your table",
+      "FEATURE1": "100% Natural Feed",
+      "FEATURE2": "Premium Quality Meat"
+    },
+    "CHICKS": {
+      "TITLE": "Day-Old Chicks",
+      "DESCRIPTION": "Healthy chicks from premium breeding stock",
+      "FEATURE1": "Fully Vaccinated",
+      "FEATURE2": "High Survival Rate"
+    },
+    "FRESH": {
+      "TITLE": "Fresh Eggs",
+      "DESCRIPTION": "Farm-fresh eggs collected daily",
+      "FEATURE1": "Organic Feed",
+      "FEATURE2": "Rich in Nutrients"
+    }
+  },
+  "CONTACT": {
+    "WHATSAPP": "Contact Us on WhatsApp"
+  },
+  "LANGUAGE": {
+    "EN": "English",
+    "FR": "French",
+    "AR": "Arabic"
+  },
+  "STATS": {
+    "CHICKENS": "Chickens Raised",
+    "CUSTOMERS": "Happy Customers",
+    "YEARS": "Years Experience",
+    "SATISFACTION": "Customer Satisfaction"
+  },
+  "TESTIMONIALS": {
+    "TITLE": "What Our Customers Say",
+    "QUOTE1": "The quality of their chickens is outstanding. You can really taste the difference!",
+    "AUTHOR1": "Mohammed A.",
+    "QUOTE2": "Best poultry farm in the region. Their customer service is exceptional.",
+    "AUTHOR2": "Sarah B.",
+    "QUOTE3": "I've been buying from them for years. Always fresh, always reliable.",
+    "AUTHOR3": "Ahmed K."
+  },
+  "FOOTER": {
+    "ABOUT_TITLE": "About Us",
+    "ABOUT_TEXT": "We are dedicated to providing the highest quality poultry products while maintaining sustainable and ethical farming practices.",
+    "CONTACT_TITLE": "Contact Info",
+    "ADDRESS": "Route de Tunis km 6, Sfax, Tunisia",
+    "HOURS_TITLE": "Opening Hours",
+    "WEEKDAYS": "Monday - Friday",
+    "SATURDAY": "Saturday",
+    "SUNDAY": "Sunday",
+    "CLOSED": "Closed",
+    "COPYRIGHT": "All rights reserved. Premium Chicken Farm"
+  }
+} 

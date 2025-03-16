@@ -1,0 +1,74 @@
+{
+  "HEADER": {
+    "HOME": "Accueil",
+    "GALLERY": "Galerie"
+  },
+  "HERO": {
+    "WELCOME": "Bienvenue à Notre Ferme Avicole Premium",
+    "SUBTITLE": "Découvrez nos produits avicoles de la plus haute qualité, élevés avec soin et dévouement",
+    "DISCOVER": "Découvrir Nos Produits"
+  },
+  "ABOUT": {
+    "TITLE": "À Propos de Notre Ferme",
+    "DESCRIPTION": "Avec plus de 15 ans d'expérience, nous sommes spécialisés dans l'élevage de poulets de la plus haute qualité en utilisant des pratiques durables et humaines",
+    "FEATURE1": "Qualité Premium Garantie",
+    "FEATURE2": "Méthodes d'Élevage Durables",
+    "FEATURE3": "Produits Frais Quotidiens"
+  },
+  "PRODUCTS": {
+    "TITLE": "Nos Produits",
+    "PREMIUM": {
+      "TITLE": "Poulets Premium",
+      "DESCRIPTION": "Poulets frais de la ferme, élevés naturellement, parfaits pour votre table",
+      "FEATURE1": "Alimentation 100% Naturelle",
+      "FEATURE2": "Viande de Qualité Premium"
+    },
+    "CHICKS": {
+      "TITLE": "Poussins d'Un Jour",
+      "DESCRIPTION": "Poussins sains issus d'un élevage premium",
+      "FEATURE1": "Entièrement Vaccinés",
+      "FEATURE2": "Taux de Survie Élevé"
+    },
+    "FRESH": {
+      "TITLE": "Œufs Frais",
+      "DESCRIPTION": "Œufs frais de la ferme collectés quotidiennement",
+      "FEATURE1": "Alimentation Bio",
+      "FEATURE2": "Riches en Nutriments"
+    }
+  },
+  "CONTACT": {
+    "WHATSAPP": "Contactez-nous sur WhatsApp"
+  },
+  "LANGUAGE": {
+    "EN": "Anglais",
+    "FR": "Français",
+    "AR": "Arabe"
+  },
+  "STATS": {
+    "CHICKENS": "Poulets Élevés",
+    "CUSTOMERS": "Clients Satisfaits",
+    "YEARS": "Années d'Expérience",
+    "SATISFACTION": "Satisfaction Client"
+  },
+  "TESTIMONIALS": {
+    "TITLE": "Ce Que Disent Nos Clients",
+    "QUOTE1": "La qualité de leurs poulets est exceptionnelle. On peut vraiment goûter la différence !",
+    "AUTHOR1": "Mohammed A.",
+    "QUOTE2": "Meilleure ferme avicole de la région. Leur service client est exceptionnel.",
+    "AUTHOR2": "Sarah B.",
+    "QUOTE3": "J'achète chez eux depuis des années. Toujours frais, toujours fiable.",
+    "AUTHOR3": "Ahmed K."
+  },
+  "FOOTER": {
+    "ABOUT_TITLE": "À Propos de Nous",
+    "ABOUT_TEXT": "Nous nous engageons à fournir des produits avicoles de la plus haute qualité tout en maintenant des pratiques d'élevage durables et éthiques",
+    "CONTACT_TITLE": "Informations de Contact",
+    "ADDRESS": "Route de Tunis km 6, Sfax, Tunisie",
+    "HOURS_TITLE": "Heures d'Ouverture",
+    "WEEKDAYS": "Lundi - Vendredi",
+    "SATURDAY": "Samedi",
+    "SUNDAY": "Dimanche",
+    "CLOSED": "Fermé",
+    "COPYRIGHT": "Tous droits réservés. Ferme Avicole Premium"
+  }
+} 
