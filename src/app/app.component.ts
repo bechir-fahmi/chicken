@@ -270,11 +270,14 @@ import { TranslateService } from '@ngx-translate/core';
   `]
 })
 export class AppComponent {
-  currentLang: string = 'en';
+  currentLang: string = 'ar';
 
   constructor(private translate: TranslateService) {
-    translate.setDefaultLang('en');
-    translate.use('en');
+    translate.setDefaultLang('ar');
+    translate.use('ar');
+    // Set initial RTL direction
+    document.documentElement.dir = 'rtl';
+    document.documentElement.lang = 'ar';
   }
 
   switchLang(lang: string) {
