@@ -8,6 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { CountUpDirective } from './directives/count-up.directive';
+import { FooterComponent } from './components/footer/footer.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -18,7 +19,8 @@ export function HttpLoaderFactory(http: HttpClient) {
   declarations: [
     AppComponent,
     HomeComponent,
-    CountUpDirective
+    CountUpDirective,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
