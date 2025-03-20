@@ -59,19 +59,7 @@ import { TranslateService } from '@ngx-translate/core';
         </div>
       </div>
     </nav>
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/67dbdf2450cb80190aee21a9/1impdv9fq';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+
     <router-outlet></router-outlet>
 
     <app-footer></app-footer>
