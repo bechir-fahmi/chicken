@@ -26,7 +26,7 @@ import { TranslateService } from '@ngx-translate/core';
             </h5>
             <ul class="contact-list">
               <li><i class="bi bi-telephone-fill"></i> +216 21 797 063</li>
-              <li><i class="bi bi-envelope-fill"></i> contact@chickenfarm.com</li>
+              <li><i class="bi bi-envelope-fill"></i> contact&#64;chickenfarm.com</li>
               <li><i class="bi bi-geo-alt-fill"></i> {{ 'FOOTER.ADDRESS' | translate }}</li>
             </ul>
           </div>
