@@ -5,7 +5,11 @@
   "projects": {
     "chicken-farm-website": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -16,27 +20,18 @@
             "outputPath": "dist",
             "index": "src/index.html",
             "main": "src/main.ts",
-            "polyfills": ["zone.js"],
+            "polyfills": [
+              "zone.js"
+            ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "src/assets/",
-                "output": "/assets/"
-              },
-              {
-                "glob": "favicon.ico",
-                "input": "src/assets/icons",
-                "output": "/"
-              },
-              {
-                "glob": "site.webmanifest",
-                "input": "src/assets",
-                "output": "/"
-              }
+              "src/favicon.ico",
+              "src/assets",
+              "src/assets/sitemap.xml",
+              "src/assets/robots.txt"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -71,25 +66,34 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "chicken-farm-website:build:production"
+              "buildTarget": "chicken-farm-website:build:production"
             },
             "development": {
-              "browserTarget": "chicken-farm-website:build:development"
+              "buildTarget": "chicken-farm-website:build:development"
             }
           },
           "defaultConfiguration": "development"
         },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "buildTarget": "chicken-farm-website:build"
+          }
+        },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "polyfills": ["zone.js", "zone.js/testing"],
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ],
             "tsConfig": "tsconfig.spec.json",
             "assets": [
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           }
