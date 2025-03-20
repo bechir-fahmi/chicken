@@ -26,8 +26,8 @@ import { TranslateService } from '@ngx-translate/core';
             </h5>
             <ul class="contact-list">
               <li><i class="bi bi-telephone-fill"></i> +216 21 797 063</li>
-              <li><i class="bi bi-envelope-fill"></i> contact&#64;chickenfarm.com</li>
-              <li><i class="bi bi-geo-alt-fill"></i> {{ 'FOOTER.ADDRESS' | translate }}</li>
+              <li><i class="bi bi-envelope-fill"></i> contact&#6;chickenfarm.com</li>
+              <li><i class="bi bi-geo-alt-fill"></i> <a href="https://maps.app.goo.gl/9XJNHBEAUBkxTLMQ7" target="_blank" class="address-link">{{ 'FOOTER.ADDRESS' | translate }}</a></li>
             </ul>
           </div>
           <div class="col-md-4 footer-section">
@@ -127,6 +127,16 @@ import { TranslateService } from '@ngx-translate/core';
       display: flex;
       align-items: center;
       gap: 0.5rem;
+    }
+
+    .address-link {
+      color: white;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .address-link:hover {
+      color: #25D366;
     }
 
     .footer-bottom {
